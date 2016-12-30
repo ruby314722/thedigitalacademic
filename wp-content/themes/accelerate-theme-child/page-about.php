@@ -22,7 +22,7 @@ get_header(); ?>
 	<div class="site-content">
 			<div class='about-hero'>
 				<?php the_content(); ?>
-				<h3><span>Accelerate</span> is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile. </h3>
+				<h3><span>The Digital Academic</span> is a strategy and marketing agency located in the heart of South Philadelphia. Our goal is to build businesses by making our clients visible and making their customers smile. </h3>
 			</div>
 	</div><!-- .container -->
 </section>

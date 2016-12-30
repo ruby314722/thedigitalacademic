@@ -24,7 +24,13 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->
 </section>
-
+<div class="clearfix"></div>
+<section class="what-we-do">
+	<div class="site-content">
+		<h4>What We Do</h4>
+		<h3>Why you need a website</h3>
+	</div>
+</section>
 <div class="clearfix"></div>
 <section class="services">
 	<div class="site-content">
@@ -47,6 +53,7 @@ get_header(); ?>
 	</div>
 </div>
 </section>
+<!--
 <section class="featured-work">
 	<div class="site-content">
 		<h4>Featured Work</h4>
@@ -69,7 +76,7 @@ get_header(); ?>
 			<?php wp_reset_query(); ?>
 		</ul>
 
-	</div>
+	</div> -->
 </section>
 <section class="recent-posts">
 	<div class="site-content">
@@ -90,7 +97,7 @@ get_header(); ?>
 <section class="recent-posts">
 	<div class="site-content">
 		<div class="blog-post">
-		      <h4>Recent Tweet</h4>
+
 					<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
 					<div id="secondary" class="widget-area" role="complementary">
 						<?php dynamic_sidebar( 'sidebar-2' ); ?>

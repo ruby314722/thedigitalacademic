@@ -25,7 +25,6 @@
   width: 100%;
 	max-width:980px;
 	margin:auto;
-	padding:0 10px;
 }
 
 #masthead {
@@ -57,7 +56,14 @@
     max-width: 100%;
     max-height: 300px;
     height: auto;
-
+    margin: 0;
+}
+.home-page:before {
+  background: rgba(0,255,255, 0.5);
+-moz-transition: background .3s linear;
+-webkit-transition: background .3s linear;
+-o-transition: background .3s linear;
+transition: background .3s linear;
 }
 
 .button {
@@ -65,9 +71,11 @@
 }
 /*Blog Posts on Home Page*/
 .blog-post {
-	width: 48%;
+	width: 100%;
   float: left;
-  margin-right: 2%
+  margin-left:1%;
+  margin-right: 1%;
+  margin-bottom: 20px;
 }
 
 .blog-post h4 {
@@ -117,14 +125,23 @@
 span.stt-em {
   display: none;
 }
-
+/*What We Do Secion on Home Page*/
+.what-we-do {
+  text-align: center;
+}
+.what-we-do h4 {
+	font-size: 2em;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
 /*Services Icons on Home Page*/
 
 .services {
   text-align: center;
 }
 .services h4 {
-	font-size: 16px;
+	font-size: 2em;
 	font-family: 'Montserrat';
 	color: #a6a6a6;
 	text-transform: uppercase;
@@ -143,7 +160,7 @@ span.stt-em {
 /*Case Studies on Home Page */
 
 .featured-work h4 {
-	font-size: 16px;
+	font-size: 2em;
 	font-family: 'Montserrat';
 	color: #a6a6a6;
 	text-transform: uppercase;
@@ -379,6 +396,22 @@ input[type=submit]{
 }
 .page-id-6 .entry-meta {display: none;}
 
+.entry-footer {
+  display: none;
+}
+/*FOOTER*/
+.social-media-navigation {
+  width: 48%;
+}
+.menu-social-media-nav-container ul li {
+  display: block;
+  list-style-type: none;
+  float: right;
+  padding-left: 20px;
+}
+.menu-social-media-nav-container a:hover {
+  border-bottom: 2px solid #45AC9D;
+}
 
 /* MEDIA QUERIES */
 @media only screen and (max-width:480px) {
@@ -388,7 +421,7 @@ input[type=submit]{
     width: 100%;
   	max-width:480px;
   	margin:auto;
-  	padding:0 10px;
+  	padding:0;
   }
   #masthead h1 {
     float: none;
@@ -424,7 +457,7 @@ input[type=submit]{
     width: 100%;
   	max-width:760px;
   	margin:auto;
-  	padding:0 10px;
+  	padding:0;
   }
 
   #masthead {
