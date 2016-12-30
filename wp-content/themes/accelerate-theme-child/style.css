@@ -1,0 +1,440 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Brigid Barrett
+ Author URI:   http://brigidbarrett.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+
+@import url("../accelerate-theme/style.css");
+
+::selection {
+  background: #45ac9d; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #45ac9d; /* Gecko Browsers */
+}
+.site-content,
+.site-footer,
+.header-main {
+  width: 100%;
+	max-width:980px;
+	margin:auto;
+	padding:0 10px;
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+#masthead ul li {
+  display: block;
+  float: left;
+  margin: 0 0 0 40px;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  font-family: 'Montserrat', sans-serif;
+}
+#masthead ul li:hover{
+  border-bottom: 2px solid white;
+}
+.menu-top-nav-container {
+  border: 1px solid #45ac9d;
+}
+
+/*Home Page*/
+.home-page {
+    rgba(20,20,20, .5),
+    rgba(20,20,20, .5));
+    background: url("img/textureoflondon-brick.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+/*Blog Posts on Home Page*/
+.blog-post {
+	width: 48%;
+  float: left;
+  margin-right: 2%
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+.blog-post .read-more-link {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+.addthis_toolbox {display: none;}
+/*Tweets on Home Page*/
+.widget {
+  padding: 0;
+}
+.widget-title {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.widget ul.tweets {
+  margin-left: 0;
+}
+
+.widget ul.tweets li {
+  list-style-type: none;
+  color: #2b2b2b;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: 400;
+	line-height: 1.5;
+  margin-bottom: 0px;
+}
+span.stt-em {
+  display: none;
+}
+
+/*Services Icons on Home Page*/
+
+.services {
+  text-align: center;
+}
+.services h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.services-icon {
+  float: left;
+  width: 21%;
+  margin: 0 2%;
+  padding-bottom: 50px;
+}
+.services-icon img {
+  margin: 20px 0;
+  width: 100%
+}
+/*Case Studies on Home Page */
+
+.featured-work h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.homepage-featured-work {
+  display: block;
+  float:left;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.individual-featured-work {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+
+}
+.individual-featured-work img {
+  margin: 0 10px;
+}
+
+
+/*Case Studies*/
+.case-study-sidebar {
+    width: 300px;
+    float: left;
+    margin: 40px 54px 0 0;
+}
+.case-study-sidebar p {
+  font-size: 0.9em;
+}
+.case-study-sidebar h5 {
+  font-size: 0.75em;
+  color: #ccc;
+  margin:10px 0;
+}
+
+.case-study-images {
+  width: 600px;
+  float: left;
+  margin-top: 50px;
+}
+.case-study-images img{
+  margin-bottom: 40px;
+}
+
+/*NINJA FORMS CONTACT STYLE */
+.page-id-47347 .site-content {
+  width: 650px;
+}
+.
+.nf-form-title {
+  display: none;
+}
+.nf-form-fields-required {
+	display: none;
+}
+.nf-field .nf-field-label label {
+    font-weight: normal;
+    font-size: .9em;
+}
+.nf-field-container.textbox-container.label-above,
+.nf-field-container.email-container.label-above {
+    display: block;
+    width: 49%;
+    float: left;
+    clear: initial;
+}
+.nf-field-container.email-container.label-above {
+  margin-left: 2%;
+}
+#nf-field-1, #nf-field-2 {
+  height: 40px;
+}
+#nf-field-4 {
+  float: right;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #45AC9D;
+  padding: 15px 80px;
+}
+
+/*ABOUT SERVICES PAGE CUSTOM STYLES */
+
+/*.about-page {
+    background: url("img/textureoflondon-brick.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    width: 100%;
+    padding: 100px 0;
+}*/
+.about-page {
+    rgba(20,20,20, .5),
+    rgba(20,20,20, .5));
+    background: url("img/textureoflondon-brick.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    max-width: 100%;
+    height: auto;
+    padding: 100px 0;
+}
+
+.about-hero {
+	text-align:center;
+}
+
+.about-hero h1 {
+	color:white;
+	font-weight:bold;
+}
+.about-hero h3 {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 24px;
+    line-height: 1.3em;
+    font-weight: normal;
+    margin: 0px 200px 0px 200px;
+}
+.about-hero h3 span {
+  color: #45ac9d;
+}
+.services-description {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.services-description h2{
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-family: 'Montserrat';
+}
+
+.service-content {
+  /*border: solid red 1px;*/
+  margin: 0 50px;
+  clear: both;
+}
+.services-image-left {
+  width: auto;
+  float: left;
+  margin-bottom: 80px;
+  margin-right: 30px;
+}
+
+.services-text-right {
+  width: 70%;
+  float: right;
+}
+.services-text-right h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.services-image-right {
+  width: auto;
+  float: right;
+  margin-bottom: 80px;
+  margin-left: 30px;
+}
+
+.services-text-left {
+  width: 70%;
+  float: left;
+  clear: both;
+  margin-bottom: 80px;
+}
+.services-text-left h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.services-contact {
+  margin: 0 auto;
+  height: 80px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 30px 175px;
+}
+.services-contact h2{
+  float: left;
+  margin: 30px auto;
+}
+
+ #contact-button {
+   float: right;
+ }
+/*404 PAGE*/
+.hero {
+  width: 569px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero h1 {
+	color:white;
+	font-weight:bold;
+}
+.hero h1 span{
+	color:#45AC9D;
+	font-weight:bold;
+}
+.screen-reader-text {
+  display: none;
+}
+.blog-post-not-found {
+	width: 50%;
+}
+
+/*Blog Page*/
+aside.sidebar {
+  width: 27%;
+  padding-left: 4%;
+  border: none;
+}
+.mc4wp-form-fields {
+  font-size: 1em;
+}
+.mc4wp-form-fields input, #search-2 input {
+  width: 100%;
+}
+.mc4wp-form-fields p {
+  margin-bottom: 0;
+}
+input[type=submit]{
+	background: #45AC9D url(./img/search-arrow.png) no-repeat center;
+  border: none;
+
+}
+.page-id-6 .entry-meta {display: none;}
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width:480px) {
+  .site-content,
+  .site-footer,
+  .header-main {
+    width: 100%;
+  	max-width:480px;
+  	margin:auto;
+  	padding:0 10px;
+  }
+  #masthead h1 {
+    float: none;
+    text-align: center;
+  }
+  #masthead nav{
+    clear: both;
+    float: none;
+    border: 1px solid red;
+    text-align: center;
+  }
+  .top-nav-link {
+	color: inherit;
+	display: inline-block;
+	font-size: 14px;
+	line-height: normal;
+	margin-left: 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.about-hero h3 {
+  margin: 0;
+
+}
+
+}
+@media only screen and (max-width:670px) {
+  .site-content,
+  .site-footer,
+  .header-main,
+   {
+    width: 100%;
+  	max-width:760px;
+  	margin:auto;
+  	padding:0 10px;
+  }
+
+  #masthead {
+    height: 100%;
+  }
+  #masthead ul li {
+    clear: both;
+    padding-right: 10%;
+  }
+  .about-hero h3 {
+    margin: 0 100px 0 100px;
+  }
+}
