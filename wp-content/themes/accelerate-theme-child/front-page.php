@@ -14,12 +14,14 @@
 
 get_header(); ?>
 
-<section class="home-page">
+<section class="home-page-full-width home-page-cover">
 	<div class="site-content">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class='homepage-hero'>
 				<?php the_content(); ?>
 				<a class="button" href="<?php echo home_url(); ?>/contact">Let's get to work!</a>
+				<h4 class="homepage-hero">Learn More</h4>
+				<img src="http://localhost:8888/thedigitalacademic/wp-content/themes/accelerate-theme-child/img/gif-bounce-arrow-small.gif" alt="scroll arrow" />
 			</div>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->
@@ -27,30 +29,38 @@ get_header(); ?>
 <div class="clearfix"></div>
 <section class="what-we-do">
 	<div class="site-content">
-		<h4>What We Do</h4>
-		<h3>Why you need a website</h3>
+		<h4>Why you need a website</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, quam eu bibendum posuere, ex neque vehicula est, ac mattis mi velit eu erat. Quisque non ligula sit amet justo pretium iaculis. Fusce auctor est sed est ultrices, sit amet euismod leo auctor. Curabitur fermentum hendrerit turpis sed mollis. Donec faucibus ac magna non blandit. Suspendisse commodo commodo libero, non ultricies ex vehicula non. Nunc sit amet sollicitudin libero. Cras consequat mi sit amet ipsum molestie dictum.
+
+Pellentesque dolor justo, fringilla et metus quis, accumsan aliquet libero. Phasellus non leo dignissim, vestibulum justo sit amet, eleifend mi. Donec ut enim.
+
+</p>
 	</div>
 </section>
 <div class="clearfix"></div>
-<section class="services">
+<section class="home-page-full-width services">
 	<div class="site-content">
-		<h4>Our Services</h4>
+		<h2>Our Services</h2>
+	<div class="icon-float"	>
 	<div class="services-icon">
-		<a href="http://localhost:8888/accelerate/about/"><img src="http://localhost:8888/accelerate/wp-content/uploads/2016/10/bullseye.png" alt="Content Marketing" /></a>
-		<p><a href="http://localhost:8888/accelerate/about/">Content Strategy</a></p>
+		<a href="http://ruby314722.wpengine.com/about/"><img src="http://localhost:8888/thedigitalacademic/wp-content/themes/accelerate-theme-child/img/circle.gif" alt="circle" /></a>
+		<p><a href="http://ruby314722.wpengine.com/about/">Content Strategy</a></p>
 	</div>
 	<div class="services-icon">
-		<a href="http://localhost:8888/accelerate/about/"><img src="http://localhost:8888/accelerate/wp-content/uploads/2016/10/atom-circle.png" alt="Content Marketing" /></a>
-		<p><a href="http://localhost:8888/accelerate/about/">Influencer Mapping</a></p>
+		<a href="http://ruby314722.wpengine.com/about/"><img src="http://localhost:8888/thedigitalacademic/wp-content/themes/accelerate-theme-child/img/circle.gif" alt="circle" /></a>
+		<p><a href="http://ruby314722.wpengine.com/about/">Influencer Mapping</a></p>
+	</div>
+</div>
+<div class="icon-float"	>
+	<div class="services-icon">
+		<a href="http://ruby314722.wpengine.com/about/"><img src="http://localhost:8888/thedigitalacademic/wp-content/themes/accelerate-theme-child/img/circle.gif" alt="circle" /></a>
+		<p><a href="http://ruby314722.wpengine.com/about/">Social Media Strategy</a></p>
 	</div>
 	<div class="services-icon">
-		<a href="http://localhost:8888/accelerate/about/"><img src="http://localhost:8888/accelerate/wp-content/uploads/2016/10/thumbs-up.png" alt="Content Marketing" /></a>
-		<p><a href="http://localhost:8888/accelerate/about/">Social Media Strategy</a></p>
+		<a href="http://ruby314722.wpengine.com/about/"><img src="http://localhost:8888/thedigitalacademic/wp-content/themes/accelerate-theme-child/img/circle.gif" alt="circle" /></a>
+		<p><a href="http://ruby314722.wpengine.com/about/">Design &amp; Development</a></p>
 	</div>
-	<div class="services-icon">
-		<a href="http://localhost:8888/accelerate/about/"><img src="http://localhost:8888/accelerate/wp-content/uploads/2016/10/magic-wand.png" alt="Content Marketing" /></a>
-		<p><a href="http://localhost:8888/accelerate/about/">Design &amp; Development</a></p>
-	</div>
+</div>
 </div>
 </section>
 <!--
