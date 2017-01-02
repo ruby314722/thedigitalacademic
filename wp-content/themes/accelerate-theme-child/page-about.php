@@ -48,8 +48,8 @@ get_header(); ?>
 				$size = "full"; ?>
 
 			<section class="services-description">
-				<h2>Our Services</h4>
-				<?php echo $services_description; ?>
+				<h2>Our Services</h2>
+				<p><?php echo $services_description; ?></p>
 			</section>
 
 			<section class="service-content">
@@ -65,14 +65,15 @@ get_header(); ?>
 			</section>
 
 			<section class="service-content">
-				<div class="services-text-left">
-					<h3><?php echo $services_title_2; ?></h3>
-					<p><?php echo $services_text_2; ?></p>
-				</div>
 				<div class="services-image-right">
 					<?php if($services_image_2) echo wp_get_attachment_image( $services_image_2, $size );
 					?>
 				</div>
+				<div class="services-text-left">
+					<h3><?php echo $services_title_2; ?></h3>
+					<p><?php echo $services_text_2; ?></p>
+				</div>
+
 			</section>
 
 			<section class="service-content">
@@ -87,20 +88,24 @@ get_header(); ?>
 			</section>
 
 			<section class="service-content">
-				<div class="services-text-left">
-					<h3><?php echo $services_title_4; ?></h3>
-					<p><?php echo $services_text_4; ?></p>
-				</div>
 				<div class="services-image-right">
 					<?php if($services_image_4) echo wp_get_attachment_image( $services_image_4, $size );
 					?>
 				</div>
+				<div class="services-text-left">
+					<h3><?php echo $services_title_4; ?></h3>
+					<p><?php echo $services_text_4; ?></p>
+				</div>
+
 			</section>
 <div class="clearfix"></div>
 		<div class="services-contact">
-			<h2>Interested in working with us?</h2>
+			<div class="services-message"><h2>Interested in working with us?</h2></div>
+
+		<div class="services-button">
 			<a class="button" id="contact-button" href="<?php echo home_url(); ?>/contact">Contact Us</a>
 		</div>
+	</div>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->

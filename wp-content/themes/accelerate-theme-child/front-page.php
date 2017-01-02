@@ -30,9 +30,8 @@ get_header(); ?>
 <section class="what-we-do">
 	<div class="site-content">
 		<h4>Why you need a website</h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, quam eu bibendum posuere, ex neque vehicula est, ac mattis mi velit eu erat. Quisque non ligula sit amet justo pretium iaculis. Fusce auctor est sed est ultrices, sit amet euismod leo auctor. Curabitur fermentum hendrerit turpis sed mollis. Donec faucibus ac magna non blandit. Suspendisse commodo commodo libero, non ultricies ex vehicula non. Nunc sit amet sollicitudin libero. Cras consequat mi sit amet ipsum molestie dictum.
-
-Pellentesque dolor justo, fringilla et metus quis, accumsan aliquet libero. Phasellus non leo dignissim, vestibulum justo sit amet, eleifend mi. Donec ut enim.
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, quam eu bibendum posuere, ex neque vehicula est, ac mattis mi velit eu erat. Quisque non ligula sit amet justo pretium iaculis. Fusce auctor est sed est ultrices, sit amet euismod leo auctor. Curabitur fermentum hendrerit turpis sed mollis. Donec faucibus ac magna non blandit.</p>
+	<p> Suspendisse commodo commodo libero, non ultricies ex vehicula non. Nunc sit amet sollicitudin libero. Cras consequat mi sit amet ipsum molestie dictum.Pellentesque dolor justo, fringilla et metus quis, accumsan aliquet libero. Phasellus non leo dignissim, vestibulum justo sit amet, eleifend mi. Donec ut enim.</p>
 
 </p>
 	</div>
@@ -60,6 +59,31 @@ Pellentesque dolor justo, fringilla et metus quis, accumsan aliquet libero. Phas
 		<a href="http://ruby314722.wpengine.com/about/"><img src="http://localhost:8888/thedigitalacademic/wp-content/themes/accelerate-theme-child/img/circle.gif" alt="circle" /></a>
 		<p><a href="http://ruby314722.wpengine.com/about/">Design &amp; Development</a></p>
 	</div>
+</div>
+</div>
+</section>
+<div class="clearfix"></div>
+<section class="who-we-are">
+	<div class="site-content">
+		<h4>Who We Are</h4>
+
+		<p><span class="who-we-are">Brigid <br></span><img src="http://localhost:8888/thedigitalacademic/wp-content/uploads/2016/10/bullseye.png" alt="circle" class="who-we-are-img"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, quam eu bibendum posuere, ex neque vehicula est, ac mattis mi velit eu erat. Quisque non ligula sit amet justo pretium iaculis. Fusce auctor est sed est ultrices, sit amet euismod leo auctor. Curabitur fermentum hendrerit turpis sed mollis. Donec faucibus ac magna non blandit. Suspendisse commodo commodo libero, non ultricies ex vehicula non. Nunc sit amet sollicitudin libero. Cras consequat mi sit amet ipsum molestie dictum. Pellentesque dolor justo, fringilla et metus quis, accumsan aliquet libero. Phasellus non leo dignissim, vestibulum justo sit amet, eleifend mi. <a href="X">Donec ut enim.</a></p>
+
+</p>
+	</div>
+</section>
+<div class="clearfix"></div>
+<section class="home-page-full-width testimonials">
+	<div class="site-content">
+		<h2>Testimonials</h2>
+		<div class="testimonials-col"><p><span class="quotation">&ldquo;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, quam eu bibendum posuere, ex neque vehicula est, ac mattis mi velit eu erat. Quisque non ligula sit amet justo pretium iaculis. Fusce auctor est sed est ultrices, sit amet euismod leo auctor. Curabitur fermentum hendrerit turpis sed mollis. Donec faucibus ac magna non blandit.
+		</p>
+		<span class="attribution">— Dr. Anna Law</span>
+		</div>
+	<div class="testimonials-col"><p><span class="quotation">&ldquo;</span> Suspendisse commodo commodo libero, non ultricies ex vehicula non. Nunc sit amet sollicitudin libero. Cras consequat mi sit amet ipsum molestie dictum.Pellentesque dolor justo, fringilla et metus quis, accumsan aliquet libero. Phasellus non leo dignissim, vestibulum justo sit amet, eleifend mi. Donec ut enim.
+	</p>
+	<span class="attribution">— Dr. Anna Law</span>
+</div>
 </div>
 </div>
 </section>
